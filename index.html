@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" onkeypress="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="game">
+        <div class="bg">
+            <div class="bg1">
+            </div>
+            <div class="bg2">
+            </div>
+        </div>
+
+        <div id="character"><img src="ezgif.com-gif-maker (1).png" alt=""></div>
+        <div id="block" class=""><img src="images.png" alt=""></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <div id="buttons">
+        <div id="right">
+    <button onclick="stop()"><i class="fa fa-volume-off fa-2x"></i></button>
+    <button onclick="play()"><i class="fa fa-volume-up fa-2x"></i></button>
+        </div>
+        <div id="left">
+    <button onclick="gameplay()">Play</button>
+    <button onclick="gamepause()">Pause</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
